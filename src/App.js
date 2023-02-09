@@ -2,14 +2,19 @@ import {React} from 'react';
 import Feed from './components/Feed';
 import Sidebar from './components/Sidebar';
 import Rightbar from './components/Rightbar';
-import { Box } from '@mui/material';
+import Navbar from './components/Navbar'
+import { Box, Stack } from '@mui/material';
 
 function App() {
   return (
     <Box>
-      <Sidebar/>
-      <Feed/>
-      <Rightbar/>
+      <Navbar/>
+      <Stack direction= "row" justifyContent="center" spacing = {2}>
+        <Sidebar/>
+        <Feed/>
+        <Rightbar/>
+      </Stack>
+      
     </Box>
   );
 }
