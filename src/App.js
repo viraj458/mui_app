@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import Rightbar from './components/Rightbar';
 import Navbar from './components/Navbar'
 import { Box, Stack } from '@mui/material';
+import AddPost from './components/AddPost';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Feed/>
         <Rightbar/>
       </Stack>
-      
+      <AddPost/>
     </Box>
   );
 }
