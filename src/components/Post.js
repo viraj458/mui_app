@@ -28,9 +28,10 @@ const Post = () => {
         />
         <CardContent>
             <Typography variant="body2" color="text.secondary">
-            This impressive paella is a perfect party dish and a fun meal to cook
-            together with your guests. Add 1 cup of frozen peas along with the mussels,
-            if you like.
+            Moraine Lake nestles in a landscape which looks like the perfect picture postcard image. 
+            Pine forests, symmetrical mountain peaks and the lake’s ice blue waters shimmering between them. 
+            This impeccable stretch of glacial water is to be found in the Banff National Park,
+            near the township of Lake Louise, in Alberta, Canada.
             </Typography>
         </CardContent>
         <CardActions disableSpacing>
