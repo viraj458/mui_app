@@ -34,7 +34,7 @@ const UserBox = styled(Box)(({theme})=>({
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     return(
-        <AppBar position='fixed'>
+        <AppBar position="sticky">
             <StyledToolbar>
                 <Typography variant='h6' sx={{display: {xs:"none", sm:"block"}}}>MUI</Typography>
                 <Bolt sx={{display: {xs:"block", sm:"none"}}}/>
