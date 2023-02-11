@@ -1,4 +1,4 @@
-import { Bolt, Mail, Notifications } from '@mui/icons-material'
+import { Bolt, Mail, Notifications, Search as SearchIcon } from '@mui/icons-material'
 import { AppBar, Avatar, Badge, Box, InputBase, Menu, MenuItem, styled, Toolbar, Typography } from '@mui/material'
 import React, { useState } from 'react'
 
@@ -38,7 +38,10 @@ const Navbar = () => {
             <StyledToolbar>
                 <Typography variant='h6' sx={{display: {xs:"none", sm:"block"}}}>MUI</Typography>
                 <Bolt sx={{display: {xs:"block", sm:"none"}}}/>
-                <Search><InputBase placeholder="search..."/></Search>
+                <Search sx={{ display:"flex", alignItems:"center", bgcolor:"background.default"}}>
+                    <SearchIcon sx={{color:"#A9A9AC"}}/>
+                    <InputBase placeholder="search..."/>
+                </Search>
                 <Icons>
                 <Badge badgeContent={4} color="error">
                     <Mail />
